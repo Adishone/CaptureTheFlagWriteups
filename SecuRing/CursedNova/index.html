@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SecuRing CursedNova CTF Writeup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<style>
+    .solved-challenge {
+      background-color:#37d63e!important;
+      opacity:.4;
+      border:none
+    }
+	</style>
+  </head>
+  <body>
+  <main>
+  <div class="container px-4 py-5">
+    <img src="cursednova_logo_ctfd.png" class="rounded mx-auto d-block" alt="CursedNova logo">
+    <h2 class="pb-2 pt-5 border-bottom text-center">Introduction</h2>
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <th scope="row">Event type</th>
+          <td>CTF</td>
+        </tr>
+        <tr>
+          <th scope="row">Organized by</th>
+          <td><a href="https://www.securing.pl">SecuRing</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Start Time</th>
+          <td>June 6 (11:00 a.m.) CEST</td>
+        </tr>
+        <tr>
+          <th scope="row">End Time</th>
+          <td>June 20 (11:00 a.m) CEST</td>
+        </tr>
+        <tr>
+          <th scope="row">URL</th>
+          <td><a href="https://ctfd.cursednova.securing.pl">https://ctfd.cursednova.securing.pl</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Based on</th>
+          <td><a href="https://github.com/steemnova/steemnova">SteemNova</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Challenges solved</th>
+          <td>9/24</td>
+        </tr>
+        <tr>
+          <th scope="row">Points gathered</th>
+          <td>410</td>
+        </tr>
+        <tr>
+          <th scope="row">Place</th>
+          <td>26th</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 class="pb-2 border-bottom text-center">Challenges</h2>
+    <!-- Network -->
+	  <h3 class="pt-2">Network</h3>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+      <div id="1" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Communication Breakdown</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="2" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Cipher suite</p>
+          <strong>Points: </strong><span>120</span>
+        </button>
+      </div>
+      <div id="3" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Trademark</p>
+          <strong>Points: </strong><span>120</span>
+        </button>
+      </div>
+    </div>
+    <!-- Network End -->
+    <!-- ??? -->
+    <h3 class="pt-2">???</h3>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+      <div id="4" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>???</p>
+          <strong>Points: </strong><span>0</span>
+        </button>
+      </div>
+      <div id="5" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>???</p>
+          <strong>Points: </strong><span>0</span>
+        </button>
+      </div>
+      <div id="6" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>???</p>
+          <strong>Points: </strong><span>0</span>
+        </button>
+      </div>
+      <div id="7" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>???</p>
+          <strong>Points: </strong><span>0</span>
+        </button>
+      </div>
+    </div>
+    <!-- ??? End -->
+    <!-- Web -->
+    <h3 class="pt-2">Web</h3>
+    <div class="row g-4 pt-5 row-cols-1 row-cols-lg-4">
+      <div id="8" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Welcome to CursedNova</p>
+          <strong>Points: </strong><span>10</span>
+        </button>
+      </div>
+      <div id="9" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Hidden Universe</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="10" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>1337</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="11" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Robot Language </p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+    </div>
+    <div class="row g-4 row-cols-1 row-cols-lg-4">
+      <div id="12" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Roll the dice</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="13" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Note</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="14" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>FAQ</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="15" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Disabled</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+    </div>
+    <div class="row g-4 row-cols-1 row-cols-lg-4">
+      <div id="16" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Alliance</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="17" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Mindblown</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="18" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+          <strong>Name: </strong><p>Market brawl</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+      <div id="19" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Gravity</p>
+          <strong>Points: </strong><span>70</span>
+        </button>
+      </div>
+    </div>
+    <div class="row g-4 row-cols-1 row-cols-lg-4">
+      <div id="20" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>The hidden entry</p>
+          <strong>Points: </strong><span>100</span>
+        </button>
+      </div>
+      <div id="21" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Dark Matter</p>
+          <strong>Points: </strong><span>100</span>
+        </button>
+      </div>
+      <div id="22" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Robot Factory</p>
+          <strong>Points: </strong><span>100</span>
+        </button>
+      </div>
+      <div id="23" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>The Invasion</p>
+          <strong>Points: </strong><span>100</span>
+        </button>
+      </div>
+    </div>
+    <!-- Web End-->
+    <!-- Misc -->
+    <h3 class="pt-5">Misc</h3>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+      <div id="24" class="col-md-3 d-inline-block">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+          <strong>Name: </strong><p>Paint the sky</p>
+          <strong>Points: </strong><span>50</span>
+        </button>
+      </div>
+    </div>
+    <!-- Misc End -->
+    <h2 class="pb-2 pt-5 border-bottom text-center">Write-up</h2>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
