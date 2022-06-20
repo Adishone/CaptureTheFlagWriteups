@@ -11,13 +11,29 @@
       opacity:.4;
       border:none
     }
+
+    legend {
+      display: block;
+      width: auto;
+      padding: 0 15px;
+      margin-bottom: 0;
+      font-size: inherit;
+      line-height: inherit;
+      border: auto;
+      float: none;
+    }
+
+    fieldset {
+      border: 1px solid #000;
+      border-radius: 10px;
+    }
 	</style>
   </head>
   <body>
   <main>
   <div class="container px-4 py-5">
-    <img src="cursednova_logo_ctfd.png" class="rounded mx-auto d-block" alt="CursedNova logo">
-    <h2 class="pb-2 pt-5 border-bottom text-center">Introduction</h2>
+    <img src="img/cursednova_logo_ctfd.jpg" class="rounded mx-auto d-block" alt="CursedNova logo">
+    <h2 class="pb-2 pt-5 border-bottom text-center">Basic Information</h2>
     <table class="table table-striped">
       <tbody>
         <tr>
@@ -46,15 +62,15 @@
         </tr>
         <tr>
           <th scope="row">Challenges solved</th>
-          <td>9/24</td>
+          <td>10/25</td>
         </tr>
         <tr>
           <th scope="row">Points gathered</th>
-          <td>410</td>
+          <td>430</td>
         </tr>
         <tr>
           <th scope="row">Place</th>
-          <td>26th</td>
+          <td>32nd</td>
         </tr>
       </tbody>
     </table>
@@ -63,22 +79,22 @@
 	  <h3 class="pt-2">Network</h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
       <div id="1" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task1">
           <strong>Name: </strong><p>Communication Breakdown</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="2" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
-          <strong>Name: </strong><p>Cipher suite</p>
-          <strong>Points: </strong><span>120</span>
-        </button>
-      </div>
-      <div id="3" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task2">
           <strong>Name: </strong><p>Trademark</p>
           <strong>Points: </strong><span>120</span>
-        </button>
+        </a>
+      </div>
+      <div id="3" class="col-md-3 d-inline-block">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task3">
+          <strong>Name: </strong><p>Cipher suite</p>
+          <strong>Points: </strong><span>120</span>
+        </a>
       </div>
     </div>
     <!-- Network End -->
@@ -86,7 +102,7 @@
     <h3 class="pt-2">???</h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
       <div id="4" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
           <strong>Name: </strong><p>???</p>
           <strong>Points: </strong><span>0</span>
         </button>
@@ -115,121 +131,791 @@
     <h3 class="pt-2">Web</h3>
     <div class="row g-4 pt-5 row-cols-1 row-cols-lg-4">
       <div id="8" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task8">
           <strong>Name: </strong><p>Welcome to CursedNova</p>
           <strong>Points: </strong><span>10</span>
-        </button>
+        </a>
       </div>
       <div id="9" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task9">
           <strong>Name: </strong><p>Hidden Universe</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
-      <div id="10" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+      <div id="10" class="col-md-3 d-inline-block" >
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task10">
           <strong>Name: </strong><p>1337</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="11" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task11">
           <strong>Name: </strong><p>Robot Language </p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
     </div>
     <div class="row g-4 row-cols-1 row-cols-lg-4">
       <div id="12" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task12">
           <strong>Name: </strong><p>Roll the dice</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="13" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task13">
           <strong>Name: </strong><p>Note</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="14" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task14">
           <strong>Name: </strong><p>FAQ</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="15" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task15">
           <strong>Name: </strong><p>Disabled</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
     </div>
     <div class="row g-4 row-cols-1 row-cols-lg-4">
       <div id="16" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task16">
           <strong>Name: </strong><p>Alliance</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="17" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task17">
           <strong>Name: </strong><p>Mindblown</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="18" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task18">
           <strong>Name: </strong><p>Market brawl</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
       <div id="19" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task19">
           <strong>Name: </strong><p>Gravity</p>
           <strong>Points: </strong><span>70</span>
-        </button>
+        </a>
       </div>
     </div>
     <div class="row g-4 row-cols-1 row-cols-lg-4">
       <div id="20" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task20">
           <strong>Name: </strong><p>The hidden entry</p>
           <strong>Points: </strong><span>100</span>
-        </button>
+        </a>
       </div>
       <div id="21" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task21">
           <strong>Name: </strong><p>Dark Matter</p>
           <strong>Points: </strong><span>100</span>
         </button>
       </div>
       <div id="22" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task22">
           <strong>Name: </strong><p>Robot Factory</p>
           <strong>Points: </strong><span>100</span>
-        </button>
+        </a>
       </div>
       <div id="23" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task23">
           <strong>Name: </strong><p>The Invasion</p>
           <strong>Points: </strong><span>100</span>
-        </button>
+        </a>
       </div>
     </div>
     <!-- Web End-->
     <!-- Misc -->
     <h3 class="pt-5">Misc</h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-      <div id="24" class="col-md-3 d-inline-block">
-        <button class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2">
+      <div id="25" class="col-md-3 d-inline-block">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2 solved-challenge" href="#task25">
+          <strong>Name: </strong><p>Feedback</p>
+          <strong>Points: </strong><span>20</span>
+        </a>
+      </div>
+      <div id="26" class="col-md-3 d-inline-block">
+        <a class="btn btn-dark w-100 text-truncate pt-3 pb-3 mb-2" href="#task26">
           <strong>Name: </strong><p>Paint the sky</p>
           <strong>Points: </strong><span>50</span>
-        </button>
+        </a>
       </div>
     </div>
     <!-- Misc End -->
     <h2 class="pb-2 pt-5 border-bottom text-center">Write-up</h2>
+    <h4 class="text-center">Basic Findings</h4>
+    <p>
+      This part will describe the things that helps in later tasks, so please make sure that you read it first. <br />
+      In any of the Network Response you will be able to find 
+      <code>X-Powered-By PHP/7.3.33</code> header in response that is worth noting.
+      Ctf is based on Steem Nova engigne, that is avaialble on Github you can use it for routes, files etc.
+      It is possible to read the source files by using special url for example:
+      <a href="https://uni1.cursednova.securing.pl/source.php?file=includes/pages/game/ShowResourcesPage.class.php">Source</a>.
+      By checking the source of source.php you will be able to find that files with words 'flags', 'custom', 'cache', 'templates_c', 'backups', 'config', '.log' are excluded.  
+    </p>
+    <!-- Task 1 -->
+    <div id="task1">
+      <h4 class="text-center">Challenge name: Communication Breakdown</h4>
+      <h5 class="text-center">Category: Network</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Wireshark, John the Ripper</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">"I can't do it anymore", thought Twardowski. "Being a prisoner is one thing, I can handle being alone. But these attacks... I don't deserve this. I'm still suffering from a stupid mistake I made two centuries ago..."</p>
+        <a class="btn btn-primary ms-3 mb-3" href="files/communication_breakdown.pcapng">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+          </svg>
+          communication_breakdown.pcapng
+        </a>
+      </fieldset>
+      
+  
+      <div class="accordion accordion-flush py-4" id="accordionOne">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerOne" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseOne"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionOne">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 1 End -->
+    <!-- Task 2 -->
+    <div id="task2" class="mb-3">
+      <h4 class="text-center">Challenge name: Trademark</h4>
+      <h5 class="text-center">Category: Network</h5>
+      <h6 class="text-center">Points: 120</h6>
+      <h6 class="text-center">Software used: </h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Our law deparment already prepared the papers for trademark registration. Soon, we will be able to use the CursedNova™! We need to hurry and register the proper domains. We already registered cursednova.PL, but there will be many more! TLDr: go for it!</p>
+      </fieldset>
+    </div>
+    <!-- Task 2 End -->
+    <!-- Task 3 -->
+    <div id="task3" class="mb-3">
+      <h4 class="text-center">Challenge name: Cipher suite</h4>
+      <h5 class="text-center">Category: Network</h5>
+      <h6 class="text-center">Points: 120</h6>
+      <h6 class="text-center">Software used: </h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">The DDT (Devil Development Team) created the new shiny leet cipher suite that will be used to secure the communication between Hell and CursedNova departments. In a couple sprints there will be also a release of the modified OpenSSL binaries. Stay tuned!</p>
+      </fieldset>
+    </div>
+    <!-- Task 3 End -->
+    <!-- Task 8 -->
+    <div id="task8">
+      <h4 class="text-center">Challenge name: Welcome to CursedNova</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 10</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Welcome to CursedNova! Please register - and don't forget to read the rules!</p>
+      </fieldset>
+
+      <p class="mt-3">
+        Task is pretty simple to make you familiar with the system. 
+        When entered <a href="https://uni1.cursednova.securing.pl/">https://uni1.cursednova.securing.pl/</a> url you will be able to find Register Now! button.
+        At the bottom there will be a link to <a href="https://uni1.cursednova.securing.pl/index.php?page=rules">Rules</a>, flag is at the bottom.
+        Don't forget to register your user anyway as you will need it later.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionEight">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEight">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerEight" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseEight"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionEight">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{The_game_is_on!_Douy3bah}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 8 End -->
+    <!-- Task 9 -->
+    <div id="task9">
+      <h4 class="text-center">Challenge name: Hidden Universe</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Are we really alone in time and space? Is it only Nekla? Try to discover hidden universes.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        Lets get once again to <a href="https://uni1.cursednova.securing.pl/">login page</a>. <br />
+        We can see dropdown that lets us choose the Universe, but there's only one option possbile: <br />
+        <img src="img/task9_1.PNG" alt="task_9" class="py-2"> <br />
+        Maybe it will be worth inspecting this select element? (use your Right Mouse Button and choose Inspect from contextual menu)
+        <pre><code>
+          &lt;select name="uni" id="universe" class="changeAction"&gt;
+            &lt;option value="1" selected="selected">Nekla&lt;/option&gt;
+            &lt;option style="display:none" value="2">Sagitta Adastreia&lt;/option&gt;
+            &lt;option style="display:none" value="3">Icarius Star System&lt;/option&gt;
+            &lt;option style="display:none" value="8">Crux Sirius&lt;/option&gt;
+            &lt;option style="display:none" value="13">Hemithea Galaxy&lt;/option&gt;
+            &lt;option style="display:none" value="21">Capella&lt;/option&gt;
+            &lt;option style="display:none" value="34">Aegialeus Nebula&lt;/option&gt;
+            &lt;option style="display:none" value="55">Aquila Eioneus&lt;/option&gt;
+            &lt;option style="display:none" value="89">Zeta Hyperion&lt;/option&gt;
+          &lt;/select>
+        </code></pre>
+        We have more options, but they seem to be hidden. The thing that we should look for is that we have Fibonacci numbers, but they are missing 5. <br />
+        Lets try chaning value of Nekla option to 5 and login with our registered credentials.
+        Flag will be shown in query after.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionNine">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingNine">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerNine" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseNine"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionNine">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{I've_a_feeling_we're_not_in_Kansas_anymore_wua7Rua1}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 9 End -->
+    <!-- Task 10 -->
+    <div id="task10" class="mb-3">
+      <h4 class="text-center">Challenge name: 1337</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Legend has it that a person who has 1337 metal in their storage will receive a blessing.</p>
+      </fieldset>
+    </div>
+    <!-- Task 10 End -->
+    <!-- Task 11 -->
+    <div id="task11" class="mb-3">
+      <h4 class="text-center">Challenge name: Robot Language</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Robots don't speak English... Does this app offer any normal languages, like, I don't know, the robot language?!</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        After playing a bit with source reading I was able to find that there's a directory called <code>language/robot</code>, but couldn't take it any futher.
+      </p>
+    </div>
+    <!-- Task 11 End -->
+    <!-- Task 12 -->
+    <div id="task12">
+      <h4 class="text-center">Challenge name: Roll the dice</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Wise man once said "Fortune favours the brave". Can you beat the odds and roll the dice 100 times with all of them landing on 1? Hop in the chat and try your luck with the <code>/roll</code> command!</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        Lets get to the chat page and lets try the roll command. <br />
+        <code>Adishone rolls 1d6 and gets 3</code> <br />
+        It seems that we have a possbility to roll different dices same as in Role Playing Games when your dice can have more edges than six.
+        Lets try suppling parameters to roll command like that <code>/roll 1d1</code> and repeat command two times. <br />
+        <code>Adishone rolls 1d1 and gets 1</code> <br />
+        <code>Adishone rolls 1d1 and gets 1</code> <br />
+        Seems like we are able to specify parameters like that and d stands for dimension, so for now we are rolling dice with only one value, we are halfway there. <br />
+        Lets try to play a bit with the first number now <code>/roll 5d1</code> <br />
+        <code>Adishone rolls 5d1 and gets 1,1,1,1,1</code> <br />
+        Ok seems like the first number controls how many times are we rolling our dice. Lets go with command <code>/roll 100d1</code>. Flag will come up in chat.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionTwelve">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwelve">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerTwelve" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseTwelve"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionTwelve">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{They_see_me_rollin_c​hunaeF6}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 12 End -->
+    <!-- Task 13 -->
+    <div id="task13">
+      <h4 class="text-center">Challenge name: Note</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">It's good to know your enemy. Can you access Twardowski's notes?</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        Lets visit the notes page small popup should show up and let's try to create a new note. In my case url looked like this: <br />
+        <code>https://uni1.cursednova.securing.pl/game.php?page=notes&mode=detail&id=30</code> <br />
+        Maybe we could get notes of other user by manipulating the id parameter? Let's try going for id 1, you can paste it into another tab of the browser. Flag will show-up in that note.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionThirteen">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThirteen">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerThirteen" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseThirteen"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionThirteen">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{Twardowski's_curse_iemeV0ou}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 13 End -->
+    <!-- Task 14 -->
+    <div id="task14">
+      <h4 class="text-center">Challenge name: FAQ</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Check out the FAQ!</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        By visitng FAQ page I was unable to find anything so decided to use source checking and found this interesting part: <br />
+        <code>header("Secret: " . $LNG['W7_FAQ']);</code> <br />
+        Lets check the headers in response for FAQ page then, flag will be visible in Secret header.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionFourteen">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFourteen">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerFourteen" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseFourteen"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFourteen">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{The_answer_you_were_looking_for_Euj4ar8e}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 14 End -->
+    <!-- Task 15 -->
+    <div id="task15">
+      <h4 class="text-center">Challenge name: Disabled</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Excuse me Sir, our workers say they have no clue how to build the Metal Mine. Can you help them with that task?</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        When visitng <a href="https://uni1.cursednova.securing.pl/game.php?page=buildings">buildings page</a> you will see that build link is greyed out on Metal Mine.<br />
+        Lets inspect the code for that link <br />
+        <pre><code>
+          &lt;form action="game.php?page=buildings" method="post" class="build_form"&gt;
+            &lt;input type="hidden" name="cmd" value="insert"&gt; 
+            &lt;input type="hidden" name="building" value="1"&gt;
+            &lt;button type="button" class="build_submit" style="color: gray;"&gtBuild&lt;/button&gt;
+          &lt;/form&gt;
+        </code></pre>
+        You could probably already see what's the problem, but lets compare it with other button
+        <code>&lt;button type="submit" class="build_submit"&gt;Build&lt;/button&gt;</code>
+        Problem is that button type is not set to submit, let's change it and click build, flag will show-up on the building card, but you will need to refresh the page. <br />
+        Flag will only show up on level 1 metal mine, so be sure to pick up the flag before upgrading the building.
+      </p>
+  
+      <div class="accordion accordion-flush py-4" id="accordionFourteen">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFifteen">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerFifteen" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseFifteen"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFifteen">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{Do_not_trust_frontend_security_puch8Air}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 15 End -->
+    <!-- Task 16 -->
+    <div id="task16" class="mb-3">
+      <h4 class="text-center">Challenge name: Alliance</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Create your own alliance.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        When visitings <a href="https://uni1.cursednova.securing.pl/game.php?page=alliance">alliance page</a> and try to create a new alliance you will be greeted with message:<br />
+        <code>Functionality available only from localhost</code> <br />
+        Lets take a look at source code: <br />
+        <pre>
+          <code>
+            private function createAlliance()
+            {
+                $action    = $this->getAction();
+                if ($action == "send") {
+                    $checkOriginIpResult = checkOriginIP(getallheaders());
+                    echo($checkOriginIpResult[1] . "\n");
+                    if($checkOriginIpResult[0] === true)
+                        $this->createAllianceProcessor();
+                } else {
+                    $this->display('page.alliance.create.tpl');
+                }
+            }
+          </code>
+        </pre>
+          Unluckily we are not able to check what's in the checkOriginIP function as it is a part of excluded routes, but we can assume that we need right ip in the headers.
+          Lets play a bit with it, by navigating to Network tab in Firefox and using Edit and Resend on our POST Request. <br />
+          By changing Origin header to <code>localhost</code> we will be greeted with message: <code>Not localhost enough</code> <br /> which could indicate that we are going into right direction.
+          Tried going for double Host header, but with no luck. Changing Referrer to <code>https://localhost/game.php?page=alliance&mode=create</code> doesn't work either.
+      </p>
+    </div>
+    <!-- Task 16 End -->
+    <!-- Task 17 -->
+    <div id="task17">
+      <h4 class="text-center">Challenge name: Mindblown</h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Hey, hey - here! Do you want something good? I've got something nice, just look into your messages, the one from the Administrator. This will blow your mind!</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        When visitng <a href="https://uni1.cursednova.securing.pl/game.php?page=messages">messages page</a> there's one message from admin that goes like this:<br />
+        <pre>
+          <code>
+            Welcome to CursedNova! First build a solar power plant, because +<]>.---.+.[-> --> energy is needed for the production of raw materials. 
+            To build one, left click in the menu on "buildings". Then build the 4th Building from the top.
+            When you have energy, you can begin to build mines. 
+            Go to buildings on the menu and build a metal mine, followed by+++<]>-.---[->++<]>-.+[-->+<]>++++ --> a crystal mine.
+
+            In order to be able to build ships you need to have a shipyard. 
+            To see what is needed to unlock that building+<]>-.[-->+<]>-----.---.+++ --> you can take a look at "Technologies" at the left menu.
+            If you more questions you can+++<]>.[----->+++<]>.++++++++++.++ --> look at the beginnersguide, our forum or open a support ticket.
+
+            The team wishes you much fun exploring the universe!+<]>+++. --> 
+          </code>
+        </pre>
+        Pay attention to strange pluses, dashes and arrows also by seeing name of the challenge we could assume that it is a language called Brainf*ck. <br />
+        For this challenge I will use online compiler <a href="https://copy.sh/brainfuck/">here</a>. <br />
+        As all characters that are not a part of of the language will be ignored by compiler so we can just paste the whole message. <br />
+        Unluckily we have some syntax errors, but to my attention last three characters <code>--></code> stood up, that maybe there was some HTML comments before. <br />
+        I was right, by inspecting message we can see that there is more about that: <br />
+        <pre>
+          <code>
+            Welcome to CursedNova! First build a solar power plant, because <!-- ++++[++++>---<]>.>-[--->+<]>.---.+.[-> --> energy is needed for the production of raw materials. 
+            To build one, <!-- +++++++<]>.-.++++++++++.+.+++++++.++[- --> left click in the menu on "buildings". 
+            Then build the 4th Building from the top. When you have energy, you can begin to build mines. 
+            Go to buildings on the menu and build a metal mine, followed by<!-- --->+++<]>-.---[->++<]>-.+[-->+<]>++++ --> a crystal mine.
+            In order to be able to build ships you need to have a shipyard. 
+            To see what is needed to unlock that building<!-- .---[----->+<]>-.[-->+<]>-----.---.+++ --> you can take a look at "Technologies" at the left menu.
+            If you more questions you can<!-- [-->+++<]>.[----->+++<]>.++++++++++.++ --> look at the beginnersguide, our forum or open a support ticket.
+            The team wishes you much fun exploring the universe!<!-- +.++++++++.---------.[--->+<]>+++. -->
+          </code>
+        </pre>
+        We can start by clearing not needed charcters so keep only those ones: > < + - . , [ ] and also remove dots, colons from phrases and html comments:
+        <pre>
+          <code>
+            ++++[++++>---<]>.>-[--->+<]>.---.+.[->+++++++<]>.-.++++++++++.+.+++++++.++[---->+++<]>-.---[->++<]>-.+[-->+<]>++++.---[----->+<]>-.[-->+<]>-----.---.+++[-->+++<]>.[----->+++<]>.++++++++++.+++.++++++++.---------.[--->+<]>+++.
+          </code>
+        </pre>
+        Flag will appear in compiler.
+      </p>
+
+      <div class="accordion accordion-flush py-4" id="accordionSeventeen">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeventeen">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerSeventeen" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseSeventeen"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionSeventeen">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{Br41Nblown}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 17 End -->
+    <!-- Task 18 -->
+    <div id="task18" class="mb-3">
+      <h4 class="text-center">Challenge name: Market brawl </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Those Rexxan's knuckleheads are brawling at the Market area. Head over there and get that silly idea out of their empty heads.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        When visitings <a href="https://uni1.cursednova.securing.pl/game.php?page=trader">market page</a> you will be greeted with message:<br />
+        <code>Where are they? The market seems to be empty... Move your head and find those Rexxan's knuckleheads!</code> <br />
+        It has some tips around the word head. If we take a look at source code we can see this one if statement:
+        <pre>
+          <code>
+            if ($_SERVER['REQUEST_METHOD'] === 'HEAD') {
+              header('Secret: ' . $LNG['W19_BRAWL']);
+            }
+          </code>
+        </pre>
+        Lets try changing http method to HEAD in firefox (Edit and Resend under right mouse button contextual menu). Flag will appear in Secret response header.
+      </p>
+
+      <div class="accordion accordion-flush py-4" id="accordionEighteen">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEighteen">
+            <button class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#spoilerEighteen" 
+                    aria-expanded="false" 
+                    aria-controls="flush-collapseEighteen"
+                    style="background-color: #cfcfcf;">
+              Show flag
+            </button>
+          </h2>
+          <div id="spoilerEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionEighteen">
+            <div class="accordion-body" style="background-color: #cfcfcf;">CURSEDNOVA{Request_method_matters_tuyoh8Oh}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Task 18 End -->
+    <!-- Task 19 -->
+    <div id="task19" class="mb-3">
+      <h4 class="text-center">Challenge name: Gravity </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 70</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Everything is upside down on this planet... Can you fix the user interface?</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        By removing first parts of navigation.css we are able to make UI look normal, but not sure what to do next
+      </p>
+    </div>
+    <!-- Task 19 End -->
+    <!-- Task 20 -->
+    <div id="task20" class="mb-3">
+      <h4 class="text-center">Challenge name: The hidden entry </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 100</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Moon moon cannot into space. Make sure chat channel names don't contain any whitespace.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        
+      </p>
+    </div>
+    <!-- Task 20 End -->
+    <!-- Task 21 -->
+    <div id="task21" class="mb-3">
+      <h4 class="text-center">Challenge name: Dark Matter </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 100</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">There are great items for sell in the Dark Matter Shop! Check out the Officers tab.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        By taking a look at Officier page code we are able to see code like this:
+        <pre>
+          <code>
+            if($getFreeDarkMatter > 0 && $getFreeDarkMatter != 1) {
+              if(strpos(strval($getFreeDarkMatter), ".")) {
+                  echo("No chance!");
+                  exit;
+              }
+  
+              $darkMatter = min(1 / $getFreeDarkMatter, 300);
+  
+              $this->setUserDarkMatter($USER['id'], $darkMatter);
+  
+              echo("You now have " . $darkMatter . " Dark Matter.");
+              
+              exit;
+          }  
+          </code>
+        </pre>
+        $getFreeDarkMatter is passed in input, so bascially we need a value that:
+        <ul>
+          <li>is greater than 0</li>
+          <li>it is not 1</li>
+          <li>1 divided by this value will be greater than 300</li>
+          <li>doesn't have dot in it</li>
+        </ul>
+        I thought that I need 0.0001, but I need to bypass dot somehow, found <a href="https://bugs.php.net/bug.php?id=76671">some bug</a> about strpos beign vulnerable to double encode, so tried %252e0001 and 0%252e0001, but with no luck.
+      </p>
+    </div>
+    <!-- Task 21 End -->
+    <!-- Task 22 -->
+    <div id="task22" class="mb-3">
+      <h4 class="text-center">Challenge name: Robot Factory </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 100</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">My grandpa always told me to never trust robots. You never know what's inside their silicon brains. However in these harsh times of need, we would gladly accept any helping hand - even if it's made out of steel and copper wire. Unfortunately building the Robot Factory needs an additional authorization key. Can you help us find the key and build the factory?</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        We need a key to build a robot factory, but I was not able to find one.
+      </p>
+    </div>
+    <!-- Task 22 End -->
+    <!-- Task 23 -->
+    <div id="task23" class="mb-3">
+      <h4 class="text-center">Challenge name: The Invasion </h4>
+      <h5 class="text-center">Category: Web</h5>
+      <h6 class="text-center">Points: 100</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">Invade Planet Rome.</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+      </p>
+    </div>
+    <!-- Task 23 End -->
+    <!-- Task 24 -->
+    <div id="task24" class="mb-3">
+      <h4 class="text-center">Challenge name: Feedback </h4>
+      <h5 class="text-center">Category: Misc</h5>
+      <h6 class="text-center">Points: 20</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">We would love to hear your feedback about CursedNova CTF!</p>
+      </fieldset>
+
+      <p class="mt-3 text-center">
+        You need to answer questions in google form to get the flag. Not providing the flag as I don't want to send fake data to the form.
+      </p>
+    </div>
+    <!-- Task 24 End -->
+    <!-- Task 25 -->
+    <div id="task25" class="mb-3">
+      <h4 class="text-center">Challenge name: Paint the sky </h4>
+      <h5 class="text-center">Category: Misc</h5>
+      <h6 class="text-center">Points: 50</h6>
+      <h6 class="text-center">Software used: Firefox</h6>
+      <fieldset>
+        <legend>Challenge description</legend>
+        <p class="p-3">"Something is wrong", said Ender to Valentine. "I don't believe it's just a game".
+          "I know, Ender", Valentine agreed sadly. "However, you've never been to Nekla universe before. We have to learn how to navigate its stars, if you really want to go there. Fortunately, I found some information about it".
+          Help Ender and Valentine understand Nekla skymap.
+        </p>
+        <a class="btn btn-primary ms-3 mb-3" href="files/constellations.txt">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+          </svg>
+          constellations.txt
+        </a>
+        <a class="btn btn-primary ms-3 mb-3" href="files/skymap.txt">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+          </svg>
+          skymap.txt
+        </a>
+      </fieldset>
+    </div>
+    <!-- Task 25 End -->
   </div>
 
   <div class="b-example-divider"></div>
