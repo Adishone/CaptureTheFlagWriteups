@@ -314,7 +314,7 @@
         </a>
       </fieldset>
 
-      <p class="mt-3">
+      <p class="mt-3 text-center">
         Lets take a look at the file in the description, extenstion of the file is <code>.pcapng</code> on wireshark wiki we can find that it is PCAP Next Generation Dump File Format.
         Lets open it with wireshark then. You should view similiar to this one:
         <img src="img/wireshark.PNG" alt="screenshot from wireshark" class="img-fluid">
@@ -323,7 +323,7 @@
         Unluckily this zip file needs a password. I was not able to think about any clue from the description so decided to crack it up.
         Lets start by getting right hash for our john the ripper, do it you need to run command similiar to this <code>zip2john flag.zip > zip.hash</code>.
         Then we just need to crack this hash, to do it lets try john the ripper with standard dictionary usign this command<code>john zip.hash</code>.
-        <img src="img/john.PNG" alt="screenshot from john the ripper">
+        <img src="img/john.PNG" alt="screenshot from john the ripper"> <br />
         Use this password and flag will be in the text file that is inside.
       </p>
       
@@ -422,7 +422,7 @@
 
       <p class="mt-3 text-center">
         Lets get once again to <a href="https://uni1.cursednova.securing.pl/">login page</a>. <br />
-        We can see dropdown that lets us choose the Universe, but there's only one option possbile: <br />
+        We can see dropdown that lets us choose the Universe, but there's only one option possible: <br />
         <img src="img/task9_1.PNG" alt="task_9" class="py-2"> <br />
         Maybe it will be worth inspecting this select element? (use your Right Mouse Button and choose Inspect from contextual menu)
         <pre><code>
